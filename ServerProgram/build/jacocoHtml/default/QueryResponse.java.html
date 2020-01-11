@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>QueryResponse.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">Assignment8_Server</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">QueryResponse.java</span></div><h1>QueryResponse.java</h1><pre class="source lang-java linenums">import java.io.DataOutputStream;
+import java.io.IOException;
+import java.util.Set;
+
+/**
+ * Represents a response to queries.
+ * */
+public class QueryResponse implements ChatroomProtocol {
+
+<span class="fc" id="L10">  private int MessageIdentifier= MessageIdentifiers.QUERY_USER_RESPONSE;</span>
+  private  int numberOfUsers;
+  private Set&lt;String&gt; clientsUsernames;
+
+  /**
+   * Sets up a query response.
+   * @param clientsUsernames a set of the names of all connected users.
+   * */
+<span class="fc" id="L18">  public QueryResponse( Set&lt;String&gt; clientsUsernames) {</span>
+<span class="fc" id="L19">    this.numberOfUsers = clientsUsernames.size();</span>
+<span class="fc" id="L20">    this.clientsUsernames = clientsUsernames;</span>
+<span class="fc" id="L21">  }</span>
+
+  /**
+   * Writes the response to the output stream.
+   * @param out the output stream.
+   * */
+  @Override
+  public void writeToStream(DataOutputStream out) {
+    try {
+<span class="fc" id="L30">      out.writeInt(MessageIdentifier);</span>
+<span class="fc" id="L31">      out.writeChar(' ');</span>
+
+<span class="fc" id="L33">      out.writeInt(numberOfUsers);</span>
+
+<span class="fc bfc" id="L35" title="All 2 branches covered.">      for(String name : clientsUsernames) {</span>
+<span class="fc" id="L36">        out.writeChar(' ');</span>
+
+<span class="fc" id="L38">        out.writeInt(name.length());</span>
+<span class="fc" id="L39">        out.writeChar(' ');</span>
+
+<span class="fc" id="L41">        out.writeBytes(name);</span>
+<span class="fc" id="L42">      }</span>
+<span class="fc" id="L43">      out.flush();</span>
+<span class="nc" id="L44">    } catch (IOException e) {</span>
+<span class="nc" id="L45">      e.printStackTrace();</span>
+<span class="fc" id="L46">    }</span>
+<span class="fc" id="L47">  }</span>
+
+  /**
+   * Checks if two responses are equal.
+   * */
+  @Override
+  public boolean equals(Object o) {
+<span class="fc bfc" id="L54" title="All 2 branches covered.">    if (this == o) {</span>
+<span class="fc" id="L55">      return true;</span>
+    }
+<span class="pc bpc" id="L57" title="1 of 4 branches missed.">    if (o == null || getClass() != o.getClass()) {</span>
+<span class="fc" id="L58">      return false;</span>
+    }
+
+<span class="fc" id="L61">    QueryResponse that = (QueryResponse) o;</span>
+
+<span class="pc bpc" id="L63" title="1 of 2 branches missed.">    if (MessageIdentifier != that.MessageIdentifier) {</span>
+<span class="nc" id="L64">      return false;</span>
+    }
+<span class="fc bfc" id="L66" title="All 2 branches covered.">    if (numberOfUsers != that.numberOfUsers) {</span>
+<span class="fc" id="L67">      return false;</span>
+    }
+<span class="pc bpc" id="L69" title="3 of 4 branches missed.">    return clientsUsernames != null ? clientsUsernames.equals(that.clientsUsernames)</span>
+        : that.clientsUsernames == null;
+  }
+
+  /**
+   * Generates a hashcode.
+   * */
+  @Override
+  public int hashCode() {
+<span class="fc" id="L78">    int result = MessageIdentifier;</span>
+<span class="fc" id="L79">    result = 31 * result + numberOfUsers;</span>
+<span class="pc bpc" id="L80" title="1 of 2 branches missed.">    result = 31 * result + (clientsUsernames != null ? clientsUsernames.hashCode() : 0);</span>
+<span class="fc" id="L81">    return result;</span>
+  }
+
+  /**
+   * Generates a string of the response.
+   * */
+  @Override
+  public String toString() {
+<span class="fc" id="L89">    return &quot;Protocol.QueryResponse{&quot; +</span>
+        &quot;MessageIdentifier=&quot; + MessageIdentifier +
+        &quot;, numberOfUsers=&quot; + numberOfUsers +
+        &quot;, clientsUsernames=&quot; + clientsUsernames +
+        '}';
+  }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.4.201905082037</span></div></body></html>

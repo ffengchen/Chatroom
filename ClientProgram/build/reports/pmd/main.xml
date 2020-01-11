@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-12-02T17:22:35.163">
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/BroadcastMessage.java">
+<violation beginline="8" endline="97" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="BroadcastMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="FieldNamingConventions" ruleset="Code Style" class="BroadcastMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="LongVariable" ruleset="Code Style" class="BroadcastMessage" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like senderUsernameSize
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessage" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessage" variable="messageSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="18" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="20" endline="20" begincolumn="50" endcolumn="63" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="BroadcastMessage" method="BroadcastMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="27" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="BroadcastMessage" method="BroadcastMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'senderUsername' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="50" endcolumn="63" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="BroadcastMessage" method="BroadcastMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'message' is stored directly.
+</violation>
+<violation beginline="20" endline="20" begincolumn="27" endcolumn="47" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="BroadcastMessage" method="BroadcastMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'senderUsername' is stored directly.
+</violation>
+<violation beginline="28" endline="28" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="BroadcastMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="28" endline="28" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="BroadcastMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="33" endline="33" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessage" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="39" endline="39" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="42" endline="42" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="45" endline="45" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="48" endline="48" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="BroadcastMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="57" endline="58" begincolumn="5" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="BroadcastMessage" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '57'-'58').
+</violation>
+<violation beginline="77" endline="77" begincolumn="46" endcolumn="48" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="BroadcastMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="77" endline="77" begincolumn="29" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="BroadcastMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="BroadcastMessage" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/ChatroomProtocol.java">
+<violation beginline="6" endline="8" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ChatroomProtocol" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/Client.java">
+<violation beginline="10" endline="233" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="12" endline="12" begincolumn="18" endcolumn="23" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Client" variable="socket" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Code Style" class="Client" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like in
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Client" variable="in" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="28" endcolumn="30" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Client" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="18" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="Client" variable="clientName" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="23" endline="23" begincolumn="24" endcolumn="25" rule="ShortVariable" ruleset="Code Style" class="Client" method="Client" variable="ip" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like ip
+</violation>
+<violation beginline="23" endline="23" begincolumn="17" endcolumn="25" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Client" method="Client" variable="ip" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'ip' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="28" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="Client" method="Client" variable="port" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'port' is not assigned and could be declared final
+</violation>
+<violation beginline="34" endline="131" begincolumn="11" endcolumn="3" rule="NoPackage" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="34" endline="131" begincolumn="11" endcolumn="3" rule="AtLeastOneConstructor" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="41" endline="41" begincolumn="11" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="identifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'identifier' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="64" endline="64" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="73" endline="73" begincolumn="13" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="numberOfUsers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'numberOfUsers' could be declared final
+</violation>
+<violation beginline="75" endline="78" begincolumn="15" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="Client$Receive" method="run" variable="users" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'users' (lines '75'-'78').
+</violation>
+<violation beginline="78" endline="78" begincolumn="15" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="Client$Receive" method="run" variable="users" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'users' (lines '78'-'78').
+</violation>
+<violation beginline="81" endline="81" begincolumn="26" endcolumn="27" rule="ShortVariable" ruleset="Code Style" class="Client$Receive" method="run" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sb
+</violation>
+<violation beginline="81" endline="81" begincolumn="13" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="sb" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sb' could be declared final
+</violation>
+<violation beginline="82" endline="84" begincolumn="13" endcolumn="13" rule="ForLoopCanBeForeach" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#forloopcanbeforeach" priority="3">
+This for loop can be replaced by a foreach loop
+</violation>
+<violation beginline="85" endline="85" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="90" endline="90" begincolumn="13" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="93" endline="93" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="99" endline="99" begincolumn="13" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="107" endline="107" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="111" endline="111" begincolumn="13" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="112" endline="112" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="116" endline="116" begincolumn="13" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="119" endline="119" begincolumn="13" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="122" endline="122" begincolumn="13" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Receive" method="run" variable="insult" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'insult' could be declared final
+</violation>
+<violation beginline="123" endline="123" begincolumn="13" endcolumn="30" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="127" endline="127" begincolumn="11" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="Client$Receive" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="136" endline="200" begincolumn="11" endcolumn="3" rule="NoPackage" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="136" endline="200" begincolumn="11" endcolumn="3" rule="ShortClassName" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortclassname" priority="4">
+Avoid short class names like Send
+</violation>
+<violation beginline="136" endline="200" begincolumn="11" endcolumn="3" rule="AtLeastOneConstructor" ruleset="Code Style" class="Client" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="140" endline="199" begincolumn="15" endcolumn="46" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="Client$Send" method="run" variable="scanner" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DU'-anomaly for variable 'scanner' (lines '140'-'199').
+</violation>
+<violation beginline="140" endline="140" begincolumn="7" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="scanner" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'scanner' could be declared final
+</violation>
+<violation beginline="143" endline="143" begincolumn="9" endcolumn="40" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="line" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'line' could be declared final
+</violation>
+<violation beginline="148" endline="148" begincolumn="18" endcolumn="56" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="149" endline="149" begincolumn="11" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="11" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="158" endline="158" begincolumn="18" endcolumn="56" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="164" endline="164" begincolumn="18" endcolumn="53" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="170" endline="170" begincolumn="43" endcolumn="80" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="171" endline="171" begincolumn="11" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="172" endline="172" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" class="Client$Send" method="run" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like to
+</violation>
+<violation beginline="172" endline="172" begincolumn="11" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'to' could be declared final
+</violation>
+<violation beginline="179" endline="179" begincolumn="18" endcolumn="55" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="180" endline="180" begincolumn="11" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+<violation beginline="187" endline="187" begincolumn="18" endcolumn="19" rule="ShortVariable" ruleset="Code Style" class="Client$Send" method="run" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like to
+</violation>
+<violation beginline="187" endline="187" begincolumn="11" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client$Send" method="run" variable="to" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'to' could be declared final
+</violation>
+<violation beginline="193" endline="193" begincolumn="11" endcolumn="28" rule="SystemPrintln" ruleset="Best Practices" class="Client$Send" method="run" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="206" endline="206" begincolumn="5" endcolumn="22" rule="SystemPrintln" ruleset="Best Practices" class="Client" method="listCommands" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="221" endline="227" begincolumn="7" endcolumn="30" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="Client" method="readData" variable="data" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'data' (lines '221'-'227').
+</violation>
+<violation beginline="223" endline="223" begincolumn="7" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client" method="readData" variable="length" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'length' could be declared final
+</violation>
+<violation beginline="225" endline="225" begincolumn="7" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="Client" method="readData" variable="bytes" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'bytes' could be declared final
+</violation>
+<violation beginline="229" endline="229" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="Client" method="readData" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/ClientDriver.java">
+<violation beginline="6" endline="20" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ClientDriver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="ClientDriver" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="18" endcolumn="32" rule="AvoidUsingHardCodedIP" ruleset="Best Practices" class="ClientDriver" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidusinghardcodedip" priority="3">
+Do not hard code the IP address 
+</violation>
+<violation beginline="17" endline="17" begincolumn="7" endcolumn="24" rule="SystemPrintln" ruleset="Best Practices" class="ClientDriver" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/ConnectMessage.java">
+<violation beginline="7" endline="76" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ConnectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="8" endline="8" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ConnectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="21" endcolumn="37" rule="FieldNamingConventions" ruleset="Code Style" class="ConnectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="9" endline="9" begincolumn="15" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ConnectMessage" variable="usernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="18" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ConnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="25" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="ConnectMessage" method="ConnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="25" endcolumn="39" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="ConnectMessage" method="ConnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'username' is stored directly.
+</violation>
+<violation beginline="27" endline="27" begincolumn="46" endcolumn="48" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="ConnectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="27" endline="27" begincolumn="29" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="ConnectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="ConnectMessage" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="41" endline="41" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="ConnectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="41" endline="41" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="ConnectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="ConnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="46" endline="46" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="ConnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="44" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessage" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="ConnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="55" endline="55" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="ConnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="62" endline="63" begincolumn="5" endcolumn="39" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="ConnectMessage" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '62'-'63').
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/DirectMessage.java">
+<violation beginline="8" endline="119" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="DirectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="FieldNamingConventions" ruleset="Code Style" class="DirectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="LongVariable" ruleset="Code Style" class="DirectMessage" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like senderUsernameSize
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="35" rule="LongVariable" ruleset="Code Style" class="DirectMessage" variable="recipientUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like recipientUsernameSize
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="recipientUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="18" endcolumn="34" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="15" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="messageSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="15" endline="15" begincolumn="18" endcolumn="24" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="23" endline="23" begincolumn="73" endcolumn="86" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="DirectMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'message' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="47" endcolumn="70" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="DirectMessage" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'recipientUsername' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="24" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="DirectMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'senderUsername' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="73" endcolumn="86" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="DirectMessage" method="DirectMessage" variable="message" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'message' is stored directly.
+</violation>
+<violation beginline="23" endline="23" begincolumn="47" endcolumn="70" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="DirectMessage" method="DirectMessage" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'recipientUsername' is stored directly.
+</violation>
+<violation beginline="23" endline="23" begincolumn="24" endcolumn="44" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="DirectMessage" method="DirectMessage" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'senderUsername' is stored directly.
+</violation>
+<violation beginline="36" endline="36" begincolumn="46" endcolumn="48" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="DirectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="36" endline="36" begincolumn="29" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="DirectMessage" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="64" endline="64" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="DirectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="64" endline="64" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="69" endline="69" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="72" endline="72" begincolumn="5" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessage" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="78" endline="78" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="81" endline="81" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="84" endline="84" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="87" endline="87" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="90" endline="90" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DirectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="97" endline="98" begincolumn="5" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="DirectMessage" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '97'-'98').
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/DisconnectMessage.java">
+<violation beginline="8" endline="80" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="DisconnectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="10" endline="10" begincolumn="23" endcolumn="39" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DisconnectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="23" endcolumn="39" rule="FieldNamingConventions" ruleset="Code Style" class="DisconnectMessage" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="11" endline="11" begincolumn="17" endcolumn="28" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DisconnectMessage" variable="usernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="20" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DisconnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DisconnectMessage" method="DisconnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="44" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="DisconnectMessage" method="DisconnectMessage" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'username' is stored directly.
+</violation>
+<violation beginline="28" endline="28" begincolumn="48" endcolumn="50" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="DisconnectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="28" endline="28" begincolumn="31" endcolumn="50" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DisconnectMessage" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="9" endcolumn="27" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="DisconnectMessage" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="45" endline="45" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="DisconnectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="45" endline="45" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DisconnectMessage" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="DisconnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="50" endline="50" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DisconnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessage" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DisconnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="59" endline="59" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="DisconnectMessage" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="66" endline="67" begincolumn="5" endcolumn="39" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="DisconnectMessage" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '66'-'67').
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/MessageIdentifiers.java">
+<violation beginline="4" endline="24" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="MessageIdentifiers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="4" endline="24" begincolumn="8" endcolumn="1" rule="ClassNamingConventions" ruleset="Code Style" class="MessageIdentifiers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#classnamingconventions" priority="1">
+The utility class name 'MessageIdentifiers' doesn't match '[A-Z][a-zA-Z0-9]+(Utils?|Helper)'
+</violation>
+<violation beginline="9" endline="9" begincolumn="27" endcolumn="44" rule="LongVariable" ruleset="Code Style" class="MessageIdentifiers" variable="DISCONNECT_MESSAGE" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like DISCONNECT_MESSAGE
+</violation>
+<violation beginline="10" endline="10" begincolumn="27" endcolumn="45" rule="LongVariable" ruleset="Code Style" class="MessageIdentifiers" variable="DISCONNECT_RESPONSE" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like DISCONNECT_RESPONSE
+</violation>
+<violation beginline="12" endline="12" begincolumn="27" endcolumn="47" rule="LongVariable" ruleset="Code Style" class="MessageIdentifiers" variable="QUERY_CONNECTED_USERS" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like QUERY_CONNECTED_USERS
+</violation>
+<violation beginline="13" endline="13" begincolumn="27" endcolumn="45" rule="LongVariable" ruleset="Code Style" class="MessageIdentifiers" variable="QUERY_USER_RESPONSE" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like QUERY_USER_RESPONSE
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/QueryUsers.java">
+<violation beginline="7" endline="78" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="QueryUsers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="8" endline="8" begincolumn="15" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="QueryUsers" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="8" endline="8" begincolumn="15" endcolumn="31" rule="FieldNamingConventions" ruleset="Code Style" class="QueryUsers" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="8" endline="8" begincolumn="15" endcolumn="31" rule="VariableNamingConventions" ruleset="Code Style" class="QueryUsers" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#variablenamingconventions" priority="1">
+Variables should start with a lowercase character, 'MessageIdentifier' starts with uppercase character.
+</violation>
+<violation beginline="9" endline="9" begincolumn="15" endcolumn="26" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="QueryUsers" variable="usernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="18" endcolumn="25" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="QueryUsers" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="QueryUsers" method="QueryUsers" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'username' is not assigned and could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="35" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="QueryUsers" method="QueryUsers" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'username' is stored directly.
+</violation>
+<violation beginline="26" endline="26" begincolumn="46" endcolumn="48" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="QueryUsers" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="26" endline="26" begincolumn="29" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="QueryUsers" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="QueryUsers" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="43" endline="43" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="QueryUsers" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="43" endline="43" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="QueryUsers" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="QueryUsers" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="48" endline="48" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="QueryUsers" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsers" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="QueryUsers" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="57" endline="57" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="QueryUsers" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="64" endline="65" begincolumn="5" endcolumn="39" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="QueryUsers" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '64'-'65').
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/main/java/SendInsult.java">
+<violation beginline="8" endline="99" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="SendInsult" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsult" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="9" endline="9" begincolumn="21" endcolumn="37" rule="FieldNamingConventions" ruleset="Code Style" class="SendInsult" variable="MessageIdentifier" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The final field name 'MessageIdentifier' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="LongVariable" ruleset="Code Style" class="SendInsult" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like senderUsernameSize
+</violation>
+<violation beginline="10" endline="10" begincolumn="15" endcolumn="32" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsult" variable="senderUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="18" endcolumn="31" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsult" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="35" rule="LongVariable" ruleset="Code Style" class="SendInsult" variable="recipientUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like recipientUsernameSize
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsult" variable="recipientUsernameSize" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="18" endcolumn="34" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsult" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="20" endline="20" begincolumn="44" endcolumn="67" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="SendInsult" method="SendInsult" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'recipientUsername' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="21" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="SendInsult" method="SendInsult" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'senderUsername' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="44" endcolumn="67" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="SendInsult" method="SendInsult" variable="recipientUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'recipientUsername' is stored directly.
+</violation>
+<violation beginline="20" endline="20" begincolumn="21" endcolumn="41" rule="ArrayIsStoredDirectly" ruleset="Best Practices" class="SendInsult" method="SendInsult" variable="senderUsername" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#arrayisstoreddirectly" priority="3">
+The user-supplied array 'senderUsername' is stored directly.
+</violation>
+<violation beginline="31" endline="31" begincolumn="46" endcolumn="48" rule="AvoidPrefixingMethodParameters" ruleset="Code Style" class="SendInsult" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#avoidprefixingmethodparameters" priority="4">
+Avoid prefixing parameters by in, out or inOut. Uses Javadoc to document this behavior.
+</violation>
+<violation beginline="31" endline="31" begincolumn="29" endcolumn="48" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="SendInsult" method="writeToStream" variable="out" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'out' is not assigned and could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="7" endcolumn="25" rule="AvoidPrintStackTrace" ruleset="Best Practices" class="SendInsult" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace" priority="3">
+Avoid printStackTrace(); use a logger call instead.
+</violation>
+<violation beginline="54" endline="54" begincolumn="32" endcolumn="32" rule="ShortVariable" ruleset="Code Style" class="SendInsult" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like o
+</violation>
+<violation beginline="54" endline="54" begincolumn="25" endcolumn="32" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="SendInsult" method="equals" variable="o" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'o' is not assigned and could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="7" endcolumn="18" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="59" endline="59" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="62" endline="62" begincolumn="5" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsult" method="equals" variable="that" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'that' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="68" endline="68" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="71" endline="71" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="74" endline="74" begincolumn="7" endcolumn="19" rule="OnlyOneReturn" ruleset="Code Style" class="SendInsult" method="equals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#onlyonereturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="81" endline="82" begincolumn="5" endcolumn="45" rule="DataflowAnomalyAnalysis" ruleset="Error Prone" class="SendInsult" method="hashCode" variable="result" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis" priority="5">
+Found 'DD'-anomaly for variable 'result' (lines '81'-'82').
+</violation>
+</file>
+</pmd>

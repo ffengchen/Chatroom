@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="QueryResponseTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2019-12-03T01:24:25" hostname="ChendeMacBook-Pro.local" time="0.003">
+  <properties/>
+  <testcase name="testEqualsA" classname="QueryResponseTest" time="0.0"/>
+  <testcase name="testEqualsB" classname="QueryResponseTest" time="0.0"/>
+  <testcase name="testEqualsC" classname="QueryResponseTest" time="0.0"/>
+  <testcase name="testEqualsD" classname="QueryResponseTest" time="0.0"/>
+  <testcase name="testHashCode" classname="QueryResponseTest" time="0.001"/>
+  <testcase name="testToString" classname="QueryResponseTest" time="0.0"/>
+  <testcase name="writeToStream" classname="QueryResponseTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

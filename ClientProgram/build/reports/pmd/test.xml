@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd"
+    version="6.8.0" timestamp="2019-12-02T17:22:36.388">
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/BroadcastMessageTest.java">
+<violation beginline="9" endline="89" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="BroadcastMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="9" endline="89" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="BroadcastMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="11" endline="11" begincolumn="20" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="BroadcastMessageTest" variable="broadcastMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="3" endcolumn="36" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="BroadcastMessageTest" variable="broadcastMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the broadcastMessage field if you want a default access modifier
+</violation>
+<violation beginline="11" endline="11" begincolumn="3" endcolumn="36" rule="DefaultPackage" ruleset="Code Style" class="BroadcastMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="15" endline="15" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="setUp" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="21" endcolumn="28" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="BroadcastMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;sender&quot; appears 5 times in this file; the first occurrence is on line 15
+</violation>
+<violation beginline="16" endline="16" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="setUp" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="18" endcolumn="26" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="BroadcastMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;message&quot; appears 5 times in this file; the first occurrence is on line 16
+</violation>
+<violation beginline="22" endline="22" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEquals" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEquals" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEquals" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsB" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsB" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsB" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+<violation beginline="43" endline="43" begincolumn="5" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsC" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsC" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsC" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsD" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsD" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testEqualsD" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="24" endcolumn="52" rule="EqualsNull" ruleset="Error Prone" class="BroadcastMessageTest" method="testEqualsE" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#equalsnull" priority="1">
+Avoid using equals() to compare against null
+</violation>
+<violation beginline="64" endline="70" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="BroadcastMessageTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="67" endline="67" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="BroadcastMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="67" endline="67" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testHashCode" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testHashCode" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testHashCode" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testToString" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testToString" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="5" endcolumn="96" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="BroadcastMessageTest" method="testToString" variable="broadcastMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'broadcastMessage1' could be declared final
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/ClientDriverTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="ClientDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="8" endline="13" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ClientDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="8" endline="13" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="ClientDriverTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="10" endline="12" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="ClientDriverTest" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/ConnectMessageTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="ConnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="82" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="ConnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="82" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="ConnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="16" endcolumn="29" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="ConnectMessageTest" variable="connectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="30" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="ConnectMessageTest" variable="connectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the connectMessage field if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="30" rule="DefaultPackage" ruleset="Code Style" class="ConnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="17" endline="17" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="setUp" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="23" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="ConnectMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;username&quot; appears 4 times in this file; the first occurrence is on line 17
+</violation>
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsA" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsA" variable="connectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'connectMessage1' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsA" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsB" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="36" endline="36" begincolumn="5" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsC" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsC" variable="connectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'connectMessage1' could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsC" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="43" endline="43" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsD" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="48" endline="48" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsE" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsE" variable="connectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'connectMessage1' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsE" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testEqualsF" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="62" endline="62" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testHashCode" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="5" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testHashCode" variable="connectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'connectMessage1' could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="69" endline="69" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testToString" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="70" endline="70" begincolumn="5" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="testToString" variable="connectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'connectMessage1' could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="ConnectMessageTest" method="testToString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="75" endline="81" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="ConnectMessageTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="78" endline="78" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="ConnectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="78" endline="78" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="ConnectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/DirectMessageTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="DirectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="129" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="DirectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="129" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="DirectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="15" endcolumn="27" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DirectMessageTest" variable="directMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="28" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="DirectMessageTest" variable="directMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the directMessage field if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="28" rule="DefaultPackage" ruleset="Code Style" class="DirectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="17" endline="17" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="setUp" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="28" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="DirectMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;sender&quot; appears 8 times in this file; the first occurrence is on line 17
+</violation>
+<violation beginline="18" endline="18" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="setUp" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="23" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="DirectMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;receiver&quot; appears 8 times in this file; the first occurrence is on line 18
+</violation>
+<violation beginline="19" endline="19" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="setUp" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="18" endcolumn="26" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="DirectMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;message&quot; appears 8 times in this file; the first occurrence is on line 19
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="35" endline="35" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="41" endline="41" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="46" endline="46" begincolumn="5" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals3" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals3" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals3" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals3" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals3" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="55" endline="55" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals4" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals4" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals4" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals4" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals4" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="64" endline="64" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals5" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals5" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="27" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals5" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals5" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals5" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="74" endline="74" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals6" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="79" endline="79" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals7" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals7" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals7" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals7" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals7" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="87" endline="87" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals8" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals8" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="89" endline="89" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals8" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals8" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals8" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="95" endline="95" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals9" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals9" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="97" endline="97" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals9" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="98" endline="98" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testEquals9" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="99" endline="99" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testEquals9" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="104" endline="104" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testHashCode" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="105" endline="105" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testHashCode" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="106" endline="106" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testHashCode" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="107" endline="107" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testHashCode" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="108" endline="108" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="113" endline="113" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testToString" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testToString" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="115" endline="115" begincolumn="5" endcolumn="26" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testToString" variable="msg" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'msg' could be declared final
+</violation>
+<violation beginline="116" endline="116" begincolumn="5" endcolumn="106" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="testToString" variable="directMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'directMessage1' could be declared final
+</violation>
+<violation beginline="117" endline="117" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DirectMessageTest" method="testToString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="121" endline="127" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="DirectMessageTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="124" endline="124" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="DirectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="124" endline="124" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DirectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/DisconnectMessageTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="DisconnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="86" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="DisconnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="86" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="DisconnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="19" endcolumn="35" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="DisconnectMessageTest" variable="disconnectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="36" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="DisconnectMessageTest" variable="disconnectMessage" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the disconnectMessage field if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="36" rule="DefaultPackage" ruleset="Code Style" class="DisconnectMessageTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="18" endline="18" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="setUp" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="23" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="DisconnectMessageTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;username&quot; appears 4 times in this file; the first occurrence is on line 18
+</violation>
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="23" endcolumn="40" rule="LongVariable" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like disconnectMessage1
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'disconnectMessage1' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="32" endline="32" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="38" endline="38" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="44" endline="44" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals3" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals4" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="23" endcolumn="40" rule="LongVariable" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals4" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like disconnectMessage1
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals4" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'disconnectMessage1' could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals4" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="56" endline="56" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals5" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="57" endline="57" begincolumn="23" endcolumn="40" rule="LongVariable" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals5" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like disconnectMessage1
+</violation>
+<violation beginline="57" endline="57" begincolumn="5" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals5" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'disconnectMessage1' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testEquals5" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="63" endline="69" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="DisconnectMessageTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="66" endline="66" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="DisconnectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="66" endline="66" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testHashCode" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="23" endcolumn="40" rule="LongVariable" ruleset="Code Style" class="DisconnectMessageTest" method="testHashCode" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like disconnectMessage1
+</violation>
+<violation beginline="74" endline="74" begincolumn="5" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testHashCode" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'disconnectMessage1' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="80" endline="80" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testToString" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="23" endcolumn="40" rule="LongVariable" ruleset="Code Style" class="DisconnectMessageTest" method="testToString" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like disconnectMessage1
+</violation>
+<violation beginline="81" endline="81" begincolumn="5" endcolumn="85" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="DisconnectMessageTest" method="testToString" variable="disconnectMessage1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'disconnectMessage1' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="DisconnectMessageTest" method="testToString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/QueryUsersTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="QueryUsersTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="84" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="QueryUsersTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="84" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="QueryUsersTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="12" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="QueryUsersTest" variable="queryUsers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="22" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="QueryUsersTest" variable="queryUsers" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the queryUsers field if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="22" rule="DefaultPackage" ruleset="Code Style" class="QueryUsersTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="17" endline="17" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="setUp" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="23" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="QueryUsersTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;username&quot; appears 4 times in this file; the first occurrence is on line 17
+</violation>
+<violation beginline="23" endline="23" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals" variable="queryUsers1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'queryUsers1' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="31" endline="31" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="37" endline="37" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="43" endline="43" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals3" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="48" endline="48" begincolumn="5" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals4" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="49" endline="49" begincolumn="5" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals4" variable="queryUsers1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'queryUsers1' could be declared final
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals4" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="53" endline="59" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="QueryUsersTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="56" endline="56" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="QueryUsersTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="56" endline="56" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+<violation beginline="62" endline="62" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals5" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="63" endline="63" begincolumn="5" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testEquals5" variable="queryUsers1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'queryUsers1' could be declared final
+</violation>
+<violation beginline="64" endline="64" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testEquals5" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="73" endline="73" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testHashCode" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="5" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testHashCode" variable="queryUsers1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'queryUsers1' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="80" endline="80" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testToString" variable="username" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'username' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="5" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="QueryUsersTest" method="testToString" variable="queryUsers1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'queryUsers1' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="QueryUsersTest" method="testToString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+</file>
+<file name="/Users/chenfeng/Documents/GitHub/group_chengfeng_suhao/Assignment8/ClientProgram/src/test/java/SendInsultTest.java">
+<violation beginline="1" endline="1" begincolumn="1" endcolumn="33" rule="UnusedImports" ruleset="Best Practices" class="SendInsultTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#unusedimports" priority="4">
+Avoid unused imports such as 'org.junit.Assert'
+</violation>
+<violation beginline="13" endline="106" begincolumn="8" endcolumn="1" rule="NoPackage" ruleset="Code Style" class="SendInsultTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#nopackage" priority="3">
+All classes and interfaces must belong to a named package
+</violation>
+<violation beginline="13" endline="106" begincolumn="8" endcolumn="1" rule="AtLeastOneConstructor" ruleset="Code Style" class="SendInsultTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#atleastoneconstructor" priority="3">
+Each class should declare at least one constructor
+</violation>
+<violation beginline="14" endline="14" begincolumn="12" endcolumn="21" rule="BeanMembersShouldSerialize" ruleset="Error Prone" class="SendInsultTest" variable="sendInsult" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="22" rule="CommentDefaultAccessModifier" ruleset="Code Style" class="SendInsultTest" variable="sendInsult" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier" priority="3">
+To avoid mistakes add a comment at the beginning of the sendInsult field if you want a default access modifier
+</violation>
+<violation beginline="14" endline="14" begincolumn="1" endcolumn="22" rule="DefaultPackage" ruleset="Code Style" class="SendInsultTest" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#defaultpackage" priority="3">
+Use explicit scoping instead of the default package private level
+</violation>
+<violation beginline="17" endline="17" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="setUp" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="17" endline="17" begincolumn="21" endcolumn="28" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="SendInsultTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;sender&quot; appears 6 times in this file; the first occurrence is on line 17
+</violation>
+<violation beginline="18" endline="18" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="setUp" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="23" endcolumn="32" rule="AvoidDuplicateLiterals" ruleset="Error Prone" class="SendInsultTest" method="setUp" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_errorprone.html#avoidduplicateliterals" priority="3">
+The String literal &quot;receiver&quot; appears 6 times in this file; the first occurrence is on line 18
+</violation>
+<violation beginline="24" endline="24" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="33" endline="33" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="39" endline="39" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals2" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="45" endline="45" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals3" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="50" endline="50" begincolumn="5" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals4" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="51" endline="51" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals4" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="52" endline="52" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals4" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals4" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="57" endline="57" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals5" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="58" endline="58" begincolumn="5" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals5" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="59" endline="59" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals5" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="60" endline="60" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals5" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="65" endline="65" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals6" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals6" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="67" endline="67" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals6" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="68" endline="68" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals6" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="72" endline="78" begincolumn="10" endcolumn="3" rule="JUnitTestsShouldIncludeAssert" ruleset="Best Practices" class="SendInsultTest" method="writeToStream" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_bestpractices.html#junittestsshouldincludeassert" priority="3">
+JUnit tests should include assert() or fail()
+</violation>
+<violation beginline="75" endline="75" begincolumn="29" endcolumn="29" rule="ShortVariable" ruleset="Code Style" class="SendInsultTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like b
+</violation>
+<violation beginline="75" endline="75" begincolumn="25" endcolumn="29" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="write" variable="b" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'b' is not assigned and could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals7" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals7" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testEquals7" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="85" endline="85" begincolumn="5" endcolumn="26" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testEquals7" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertNotEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="93" endline="93" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testHashCode" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="94" endline="94" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testHashCode" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testHashCode" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="96" endline="96" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testHashCode" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+<violation beginline="101" endline="101" begincolumn="5" endcolumn="28" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testToString" variable="sender" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sender' could be declared final
+</violation>
+<violation beginline="102" endline="102" begincolumn="5" endcolumn="32" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testToString" variable="receiver" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'receiver' could be declared final
+</violation>
+<violation beginline="103" endline="103" begincolumn="5" endcolumn="82" rule="LocalVariableCouldBeFinal" ruleset="Code Style" class="SendInsultTest" method="testToString" variable="sendInsult1" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sendInsult1' could be declared final
+</violation>
+<violation beginline="104" endline="104" begincolumn="5" endcolumn="23" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" class="SendInsultTest" method="testToString" externalInfoUrl="https://pmd.github.io/pmd-6.8.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Assert.assertEquals' due to existing static import 'org.junit.Assert.*'
+</violation>
+</file>
+</pmd>

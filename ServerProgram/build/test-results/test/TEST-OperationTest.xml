@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="OperationTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2019-12-03T01:24:25" hostname="ChendeMacBook-Pro.local" time="0.016">
+  <properties/>
+  <testcase name="broadcastResponse" classname="OperationTest" time="0.003"/>
+  <testcase name="broadcastResponse1" classname="OperationTest" time="0.0"/>
+  <testcase name="queryResponse1" classname="OperationTest" time="0.0"/>
+  <testcase name="disconnectResponse" classname="OperationTest" time="0.0"/>
+  <testcase name="disconnectResponse1" classname="OperationTest" time="0.007"/>
+  <testcase name="showOnlineUsers" classname="OperationTest" time="0.0"/>
+  <testcase name="connectResponse1" classname="OperationTest" time="0.002"/>
+  <testcase name="insultResponse" classname="OperationTest" time="0.0"/>
+  <testcase name="insultResponse1" classname="OperationTest" time="0.001"/>
+  <testcase name="directMsgResponse" classname="OperationTest" time="0.0"/>
+  <testcase name="directMsgResponse1" classname="OperationTest" time="0.0"/>
+  <testcase name="connectResponse" classname="OperationTest" time="0.001"/>
+  <testcase name="queryResponse" classname="OperationTest" time="0.0"/>
+  <system-out><![CDATA[username is offline now.
+Online users(0):
+--------------------
+--------------------
+username is online now.
+Online users(1):
+username	
+--------------------
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
